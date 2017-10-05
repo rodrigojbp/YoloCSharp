@@ -1,0 +1,38 @@
+Microsoft (R) COFF/PE Dumper Version 14.10.25019.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file yolo_cpp_dll.dll
+
+File Type: DLL
+
+  Section contains the following exports for yolo_cpp_dll.dll
+
+    00000000 characteristics
+    59C4F833 time date stamp Fri Sep 22 08:46:59 2017
+        0.00 version
+           1 ordinal base
+           9 number of functions
+           9 number of names
+
+    ordinal hint RVA      name
+
+          1    0 0002B2F0 ??0Detector@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H@Z = ??0Detector@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0H@Z (public: __cdecl Detector::Detector(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int))
+          2    1 0002B860 ??1Detector@@QEAA@XZ = ??1Detector@@QEAA@XZ (public: __cdecl Detector::~Detector(void))
+          3    2 0002BFA0 ?detect@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@Uimage_t@@M_N@Z = ?detect@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@Uimage_t@@M_N@Z (public: class std::vector<struct bbox_t,class std::allocator<struct bbox_t> > __cdecl Detector::detect(struct image_t,float,bool))
+          4    3 0002BB00 ?detect@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@M_N@Z = ?detect@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@M_N@Z (public: class std::vector<struct bbox_t,class std::allocator<struct bbox_t> > __cdecl Detector::detect(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,float,bool))
+          5    4 0002BF80 ?free_image@Detector@@SAXUimage_t@@@Z = ?free_image@Detector@@SAXUimage_t@@@Z (public: static void __cdecl Detector::free_image(struct image_t))
+          6    5 0002BAF0 ?get_net_height@Detector@@QEAAHXZ = ?get_net_height@Detector@@QEAAHXZ (public: int __cdecl Detector::get_net_height(void))
+          7    6 0002BAE0 ?get_net_width@Detector@@QEAAHXZ = ?get_net_width@Detector@@QEAAHXZ (public: int __cdecl Detector::get_net_width(void))
+          8    7 0002BEC0 ?load_image@Detector@@SA?AUimage_t@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z = ?load_image@Detector@@SA?AUimage_t@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z (public: static struct image_t __cdecl Detector::load_image(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >))
+          9    8 0002C4D0 ?tracking@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V23@H@Z = ?tracking@Detector@@QEAA?AV?$vector@Ubbox_t@@V?$allocator@Ubbox_t@@@std@@@std@@V23@H@Z (public: class std::vector<struct bbox_t,class std::allocator<struct bbox_t> > __cdecl Detector::tracking(class std::vector<struct bbox_t,class std::allocator<struct bbox_t> >,int))
+
+  Summary
+
+        1000 .data
+        2000 .pdata
+        F000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       30000 .text
+        1000 _RDATA
